@@ -1,0 +1,134 @@
+/*CSS reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CLASS VARIABLES*/
+.center{
+    text-align: center;
+}
+
+
+/*Navigation menu*/
+#navbar{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 23px;
+    position: relative;
+}
+#name{
+    margin: 12px 40px;
+    color: white;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 2px 19px;
+    font-size: 1.3rem ;
+    color: white;
+    
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color:#000087;
+    z-index: -1;
+    opacity: 0.75;
+    height: 100%;
+    width: 100%;
+}
+/*Mountain section*/
+#mountain{
+   background: url(../Images/mountains.jpg) no-repeat center center/cover;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: -1;
+}
+#idea{
+    height: 210px;
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 290px;
+    background-color: white;
+}
+#idea h3 {
+    padding: 5px;
+    font-size: 1.8rem;
+    color: #000087;
+}
+#idea h1{
+    padding: 18px;
+    font-size: 2.8rem;
+    color: #000087;
+}
+.btn{
+    height: 50px;
+    padding: 16px;
+    border-radius: 7px;
+    background-color: white;
+    color: #000087;
+    width: 250px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #000087;
+    color: white;
+}
+/*Services section*/
+#services{
+    display: flex;
+    margin-top: 20px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 290px;
+    width:250px;
+    margin: 22px;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.h_primary{
+    padding-bottom: 23px;
+    color: #000087;
+    font-size: 2.3rem;
+}
+.box p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.info{
+    margin-top:22px;
+    border-radius: 7px;
+    background-color: white;
+    color: #000087;
+    width: 95px;
+    padding: 6px;
+    cursor: pointer;
+}
+.info:hover{
+    background-color: #000087;
+    color: white;
+}
