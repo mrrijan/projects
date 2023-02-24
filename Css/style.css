@@ -227,7 +227,8 @@ form{
     margin-top: 18px;
 }
 #date{
-    margin-right: 36px;
+    margin-right: 2px;
+    padding-right: 66px;
 }
 .form label{
     color: white;

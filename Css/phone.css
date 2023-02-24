@@ -1,0 +1,59 @@
+/*Navigation*/
+#Rijan{
+    margin: 12px 10px;
+}
+#navbar ul{
+    margin-left: 34px;
+}
+
+
+
+
+/*Mountain section*/
+#idea h3{
+    font-size: 1.3rem;
+}
+#idea h1{
+    font-size: 1.8rem;
+}
+
+
+/*Services section*/
+#services{
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 6px;
+}
+
+
+/*About section*/
+#about{
+    padding: 0px;
+}
+#about h1{
+    margin-bottom: 27px;
+    font-size: 2.5rem;
+}
+#about p{
+height: 222px;
+width: 390px;
+font-size: 1rem;
+}
+#about::before{
+    height: 450px;
+}
+
+
+/*Client section*/
+
+
+
+/*Contact section*/
+
+
+/*Class variable*/
+.btn{
+height: 38px;
+padding: 8px;
+width: 150px;
+}
