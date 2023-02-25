@@ -6,16 +6,14 @@
 #navbar ul{
     margin-left: 19px;
 }
-#navbar ul li a{
-    font-size: 1rem;
-}
+
 /*mountain section*/
 #idea h3{
-    padding-top:2px;
-    font-size: 1rem;;
+    padding-top:27px;
+    font-size: 1.4rem;;
 }
 #idea h1{
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 /*Services section*/
@@ -25,17 +23,11 @@
 
 
 /*About section*/
-#about p {height: 200px;
-width: 324px;
-font-size: 1rem;
-}
+
+
 
 /*Clients section*/
-#container img{
-    height: 35px;
-    padding: 2px 5px;
-    
-}
+
 
 /*Contact section*/
 
@@ -46,5 +38,5 @@ font-size: 1rem;
 .btn{
     height: 31px;
     padding: 4px;
-    width: 130px;
+    width: 162px;
 }

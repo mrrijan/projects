@@ -156,7 +156,6 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 23px;
 }
 #about h1{
     /* border: 2px solid black; */
